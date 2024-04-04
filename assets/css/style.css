@@ -14,7 +14,7 @@ h1 {
     font-size: 48px;
 }
 
-
+/*Removed nav, ul, and li from header class and made them their own */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,6 +41,7 @@ p {
     font-size: 16px;
 }
 
+/*Removed footer class and moved it here*/
 footer {
     padding: 30px;
     clear: both;
@@ -95,6 +96,7 @@ footer {
     background-color: #2589bd;
 }
 
+/*Consolidated benefit-lead Class, img, and h3. Also removed unneccessary CSS. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -111,6 +113,7 @@ footer {
     max-width: 150px;
 }
 
+/*Consolidated Optimiztion Class, img, and h2. Also removed unneccessary CSS*/
 .optimization {
     margin-bottom: 20px;
     padding: 50px;
